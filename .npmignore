@@ -52,3 +52,6 @@ buck-out/
 *.keystore
 
 !ios/Carthage/Build/
+
+!android/src/
+!types
