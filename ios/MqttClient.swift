@@ -169,7 +169,7 @@ extension MqttClient: CocoaMQTTDelegate {
     
     func mqtt(_ mqtt: CocoaMQTT, didConnectAck ack: CocoaMQTTConnAck) {
         if (ack == .accept) {
-            self.connectCallback?(nil)
+            self.connectCallback = nil
             return
         }
         
