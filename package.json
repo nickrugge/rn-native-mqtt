@@ -1,7 +1,7 @@
 {
   "name": "react-native-native-mqtt",
   "title": "React Native Native Mqtt",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "An MQTT client or React Native that actually works with a simple Javascript interface",
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
@@ -34,7 +34,6 @@
     "random-id": "^1.0.3",
     "tiny-emitter": "^2.1.0"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "@types/react-native": "^0.60.7",
     "react-native": "^0.63.4",
@@ -43,5 +42,6 @@
     "tslint": "^5.19.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.5.3"
-  }
+  },
+  "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39"
 }
